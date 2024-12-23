@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/detectSensorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detect Available Sensors"
+             />
+
+        <TextView
+            android:id="@+id/sensorListTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensors will be listed here"
+            android:paddingTop="16dp" />
+
+
+        <TextView
+            android:id="@+id/accelerometerData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accelerometer Data: "
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/proximityData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proximity Data: "
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/LightData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Light Sensor Data: "
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/orientationData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orientation Data: "
+            android:paddingTop="16dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
